@@ -35,6 +35,7 @@
 				/*margin-bottom:; 50px;*/
 				padding:0px 40px;
 				position:relative;
+				margin-top:180px;
 			}
 			#content{
 				display: inline-block;
@@ -44,7 +45,7 @@
 				/*margin-bottom:50px;*/
 				padding:0px 40px;
 				position:relative;
-				
+				margin-top:180px;
 			}
 			div{
 				-webkit-box-sizing:border-box;
@@ -59,13 +60,19 @@
 				position:absolute;
 				left:-80px;
 			}
+			#header{
+				position:fixed;
+				z-index:100;
+				width:100%;
+			}
 
 		</style>
 	</head>
 	<body>
+			<div id="header" class="box"> <h1>Header</h1></div>
 		<div id="container">
 			
-			<div id="header" class="box"> <h1>Header</h1></div>
+		
 			<div id="sidebar" class="box"><h2>Sidebar</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 			sed diam nonummy nibh euismod tincidunt ut laoreet dolore
 			magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -85,7 +92,7 @@
 			quam nunc putamus parum claram, anteposuerit litterarum formas
 			humanitatis per seacula quarta decima et quinta decima. Eodem
 			modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-			in futurum.</p><img src="arrow.png" id="linkToTop1"/></div>
+			in futurum.</p><a href="#"><img src="arrow.png" id="linkToTop1"/></a></div>
 			
 			<div id="content" class="box"><h2>Content</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 			sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -106,7 +113,7 @@
 			quam nunc putamus parum claram, anteposuerit litterarum formas
 			humanitatis per seacula quarta decima et quinta decima. Eodem
 			modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-			in futurum.</p><img src="arrow.png" id="linkToTop"/></div>
+			in futurum.</p><a href="#"><img src="arrow.png" id="linkToTop"/></a></div>
 			<div id="footer" class="box"><h2>Footer</h2></div>
 
 		</div>
