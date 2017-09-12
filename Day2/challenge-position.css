@@ -1,0 +1,43 @@
+.box {
+		background-color: gray;
+		color: red;
+	}
+
+	.saleImage {
+		
+		position:absolute;
+		z-index: 100;
+		top:0px;
+		right:0px;
+	}
+
+	#header {
+		text-align: center;
+		width: 100%;
+		height: 100px;
+	}
+	#footer{
+		width:100%;
+		background-color: blue;
+		height:100px;
+		position:fixed;
+		bottom:0px;
+		z-index: 100;
+	}
+	#main{
+		width:49%;
+		height:1000px;
+		background-color: navy;
+		display:inline-block;
+	}
+	#secondary{
+		width:49%;
+		height:1000px;
+		background-color: yellow;
+		display:inline-block;
+	}
+	#linkToTop
+
+	h1 {
+		padding-top: 20px;
+	}
