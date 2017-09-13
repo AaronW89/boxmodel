@@ -24,6 +24,9 @@
 		bottom:0px;
 		z-index: 100;
 	}
+	#cont1{
+		margin-bottom:100px;
+	}
 	#main{
 		width:49%;
 		height:1000px;
