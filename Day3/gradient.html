@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+    .div1{
+        background: rgb(30,87,153); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top left, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 7%, rgba(41,137,216,1) 41%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 78%, rgba(125,185,232,1) 100%);
+        background: -moz-linear-gradient(top left, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 7%, rgba(41,137,216,1) 41%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 78%, rgba(125,185,232,1) 100%);
+        background: -o-linear-gradient(top left, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 7%, rgba(41,137,216,1) 41%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 78%, rgba(125,185,232,1) 100%);
+        background: linear-gradient(to bottom right, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 7%, rgba(41,137,216,1) 41%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 78%, rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+        height:300px;
+        width:500px;
+        transform:rotatex(-30deg) rotatey(20deg);
+    }
+    #div2{
+        background:linear-gradient(to right,red,blue,magenta,blue,red);
+        height:200px;
+        width:300px;
+        transform:skew(5deg, 35deg);
+    }
+    .div1:hover{
+        -webkit-filter: hue-rotate(130deg);
+    }
+    #div2:hover{
+        -webkit-filter: invert(70%);
+    }
+    #text1{
+        transform:translatex(-80px);
+        transform:rotatex(25deg);
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h2>Gradient!</h2>
+        <p id="text1">fbhwiuhugseyiphfu</p>
+    </div>
+    <div id="div2">
+        <p>das</p>
+    </div>
+</body>
+</html>
