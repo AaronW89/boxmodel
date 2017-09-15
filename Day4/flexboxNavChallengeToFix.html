@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Flexbox</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/reset.css">
+		<style type="text/css">
+		body{
+			background-color:#f5d76e;
+		}
+		nav{
+			font-family: roboto;
+			background-color: #f5d76e;
+			margin: 0px auto;
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px 10px 0px 0px;
+			padding: 0;	
+		}
+				
+		a{
+			text-decoration: none;
+			color: black;
+			flex:1;
+			height: 30px;
+			font-family: Dosis;
+			padding:20px 20px 20px 20px;
+			text-align: center;
+			font-size: 2em;
+			border:1px white;
+			color:#fff;
+
+		}
+		#logoNav{
+			font-size: 2em;
+			font-weight: bold;
+		}
+		
+		#landingMessage{
+			flex-wrap:wrap;
+			flex:1;
+			margin:0px;
+		}
+		#landingImage{
+			flex:1;
+			align-items:scale;
+			margin:0px;
+		}
+		#cont{
+			text-align:center;
+			align-items: center;
+			border:0px;
+			margin:0px;
+		}
+		.disp{
+			background-color:#f5d76e;
+			margin:0px;
+			border:0px;
+		}
+		.imgBorder{
+			text-align: justify;
+		}
+
+		@media screen and (min-width: 700px){
+		nav{
+			flex-direction: row;
+			justify-content:space-between;
+			height:auto;
+			flex-wrap:wrap;
+			margin:0px;
+			
+		}
+		a{
+			border:0px;
+			font-size:1.5em;
+			flex:1;
+			padding:20px 10px;
+		}
+		#logoNav{
+			flex:5;
+			font-size:1.5em;
+			word-wrap:break-word;
+			padding:20px 10px;
+		}
+		#cont{
+			display:flex;
+			flex:1;
+			flex-direction: row;
+			flex-wrap:wrap;
+			background-color: #f5d76e;
+		}
+		#imageDiv{
+			display:flex;
+			flex-direction:row;
+			flex-wrap: wrap;
+			align-items:stretch;
+			flex:1;
+			/*justify-content:space-around;*/
+			margin:0px;
+			border:0px;
+			padding:0px;
+			justify-content:center;
+		}
+		#imageDiv img{
+			margin:5px;
+			
+		}
+		}
+
+		</style>
+</head>
+<body>
+
+	<nav>
+		
+			<a id="logoNav">CODE INSTITUTE</a>
+			<a href="#">Home</a>
+			<a href="#">Projects</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+			<a href="#">Photos</a><br />		
+	
+	</nav>
+	<container id="cont">	
+		<div class="disp" id="landingMessage">
+			<h2>Make Creative Clever Fun Apps.<br /> Simple.</h2>
+		</div>
+		<div class="disp" id="landingImage">
+			<img src="laptop.png">
+		</div>
+	</container>
+	<div class="disp" id="imageDiv">
+		<div class="imgBorder"><img src="graphic1_480.png" />
+			<h2>Web Info Sessions</h2>
+            <p>If you have questions about your career in...</p>
+        </div>
+		<div class="imgBorder"><img src="graphic2_480.png" />
+			<h2>Web Info Sessions</h2>
+            <p>If you have questions about your career in...</p>
+		</div>
+		<div class="imgBorder"><img src="graphic3_480.png" />
+			<h2>Web Info Sessions</h2>
+            <p>If you have questions about your career in...</p>
+		</div>
+		<div class="imgBorder"><img src="graphic4_480.png" />
+			<h2>Web Info Sessions</h2>
+            <p>If you have questions about your career in...</p>
+		</div>
+	</div>
+</body>
+</html>

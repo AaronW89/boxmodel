@@ -44,7 +44,12 @@ p{
 @media screen and (max-width:500px){
 .imgSize{
     width:100%;
-    
+}
+.container{
+    display:inline-block;
+    background-image: url('divBackground.jpg');
+    margin:10px;
+    background-size:cover;
 }
 #imgLay1{
     margin-left:auto;
